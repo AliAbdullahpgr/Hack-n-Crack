@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { AttackEstimator } from "@/components/attack-estimator";
 
 const rainbowTable: Record<string, string> = {
   "e10adc3949ba59abbe56e057f20f883e": "123456",
@@ -223,6 +224,8 @@ export function RainbowTableDemo() {
           </div>
         </CardContent>
       </Card>
+
+      <AttackEstimator algorithm={selectedAlgorithm} />
     </div>
   );
 }
