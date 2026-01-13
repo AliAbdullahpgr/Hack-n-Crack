@@ -10,10 +10,10 @@
 
 ## Style Guidelines:
 
-- Primary color: Deep purple (#673AB7) to convey security and sophistication.
-- Background color: Light lavender (#EDE7F6), a desaturated tint of the primary to set a light tone and aid readability.
-- Accent color: Soft teal (#4DB6AC) for interactive elements, to guide the user through the process. 
-- Headline font: 'Space Grotesk' (sans-serif) for a modern and technical feel; body font: 'Inter' (sans-serif) for readability.
-- Use lock and key icons to represent security, and algorithm-specific icons.
-- Clearly separate the Hashing Playground and Rainbow Table Demo sections using tabs or distinct pages.
-- Use subtle transitions and animations when hashing or cracking, to create a dynamic and engaging experience.
+- Primary color: Deep teal (#0F6E79) to signal clarity and trust.
+- Background color: Warm paper (#FAF4E8) to keep the interface calm and readable.
+- Accent color: Coral (#E86B50) for emphasis and interactive highlights.
+- Headline font: 'Space Grotesk' (sans-serif); body font: 'Manrope' (sans-serif); code font: 'JetBrains Mono' (monospace).
+- Use lock and key icons to represent security, plus scanning/alert motifs for attacks.
+- Separate the Hashing Playground and Rainbow Table Demo as distinct lab sections.
+- Use meaningful motion (fade-up reveals, floating ambient shapes) to create a dynamic, hands-on feel.
